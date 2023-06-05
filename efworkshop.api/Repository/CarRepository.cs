@@ -1,4 +1,5 @@
-﻿using efworkshop.api.Model;
+﻿using efworkshop.api.Data;
+using efworkshop.api.Model;
 
 namespace efworkshop.api.Repository
 {
@@ -6,7 +7,10 @@ namespace efworkshop.api.Repository
     {
         public IEnumerable<Car> GetCars()
         {
-            throw new NotImplementedException();
+            using(var db = new CarContext())
+            {
+                return db.Cars.ToList();
+            }
         }
     }
 }

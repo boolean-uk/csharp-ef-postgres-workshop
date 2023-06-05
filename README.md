@@ -17,4 +17,17 @@ Npgsql.EntityFrameworkCore.PostgreSQL
 -add context
 -add connection details
 
+
+
 -add-migration
+
+
+uncle Bob!
+
+SOLID principles
+single responsibility
+open/closed
+liskov substituion principle
+interface segration
+dependency injection - ioc
+
