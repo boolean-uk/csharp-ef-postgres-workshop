@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "efworkshop.api", "efworksho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "efworkshop.tests", "efworkshop.tests\efworkshop.tests.csproj", "{D4C151CC-F6A4-4B48-978A-5DEB27DF5257}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1662AE2-8D75-4F7D-B293-844AC43A486C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A863E7A0-14E3-4B8A-8C13-DC569CE6FED8}
 	EndGlobalSection
 EndGlobal
